@@ -25,6 +25,7 @@
 </nav>
 <!-- Nav End -->
 
+
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner" style="max-height:500px;">
     <div class="carousel-item active">
@@ -46,7 +47,73 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+<div style="display:block;background-color:#eef4f7;padding-top:10px;/*max-height:400px;*/">
+        <div class="container" style="display:block;">
+            <div class="row" style="/*display:block;*//*background-color:#000;*/">
+                <div class="col-md-7" style="background-color:rgb(238,244,247);">
+                    <h2 class="text-center">Send Us A Message </h2>
+                    <hr style="color:#fff;padding:2px;">
+<div class="contactForm">
 
+<!--MESSAGE SENT SUCCESFULLY-->
+<!-- <mark id="message"></mark> Turned off-->
+
+
+<!--Main form-->
+                <form method="post" action="https://www.scottcountyartscouncil.org/mail.php" name="contactform" id="contactform" autocomplete="on">
+                    <fieldset>
+
+                        <div>
+                            <label class="contactLabel">Name</label>
+                            <input name="name" type="text" id="name" required="yes">
+                        </div>
+
+                        <div>
+                            <label class="contactLabel">E-mail</label>
+                            <input name="email" type="email" id="email" pattern="^[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})$" required="yes">
+                        </div>
+
+                        <div>
+                            <label class="contactLabel">Subject</label>
+                            <input name="subject" type="text" id="subject" required="no">
+                        </div>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <div>
+                            <label class="contactLabel">Your Message</label> 
+                            <textarea name="comments" cols="40" rows="3" id="comments" required="yes"></textarea> 
+                        </div>
+
+                    </fieldset>
+
+                    <input type="submit" class="submit" id="submit" value="Send message">
+
+                </form>
+<!--END Main form-->
+        </div>
+
+<div class="col-md-5" style="/*element.style {  background-color:rgba(7,84,147,0.6);*/background-color:#eef4f7;">
+                    <section id="contact" style="padding:0 5px;">
+                        <h2 class="text-center">Contact</h2>
+                        <hr style="color:#fff;">
+                        <p><strong>Email:</strong> <a href="mailto:artscouncilscottcounty@gmail.com">ArtsCouncilScottCounty@gmail.com</a></p>
+                        <p><strong>Facebook</strong>: <a href="https://www.facebook.com/ScottCountyArtsCouncil" target="_blank">ScottCountyArtsCouncil</a></p>
+                        <p><strong>Twitter:</strong> <a href="https://twitter.com/scottcountyarts" target="_blank">ScottCountyArts</a></p>
+                        <p><strong>Address: </strong>P.O. Box 29 Scottsburg, IN 47470</p>
+                        <p><strong>Meetings: </strong>Scott County Museum &amp; Heritage Center</p>
+                        <iframe allowfullscreen="" frameborder="0" width="100%" height="200px" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDa1VwsMykSBVxghwkCOimNt8TO-oFeR-g&amp;q=1050+S+Main+St%2C+Scottsburg%2C+IN+47170&amp;zoom=10"
+                        class="overlay" style="pointer-events:none; padding-bottom:10px;"></iframe>
+                    </section>
+                </div>
+          
+<div class="footer-basic">
+        <footer>
+            <p class="copyright">Scott County Arts Council © 2017</p>
+        </footer>
+    </div>
+</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
