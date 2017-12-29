@@ -14,6 +14,8 @@
 
 .features-boxed {
     background-color: #ffd700;
+    box-shadow: 7px 14px 33px -16px rgba(0,0,0,.25);
+
 }
 
 .features-boxed p {
