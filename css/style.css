@@ -1,0 +1,25 @@
+.icon {
+    color: #17a2b8;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.box {
+    box-shadow: 7px 14px 33px -16px rgba(0,0,0,.25);
+    padding: 30px;
+    background-color:#f7f7f7;
+    text-align: center;
+}
+
+.features-boxed {
+    background-color: #ffd700;
+}
+
+.features-boxed p {
+    color: #7d8285;
+}
+
+a {
+    color: #17a2b8;
+}
